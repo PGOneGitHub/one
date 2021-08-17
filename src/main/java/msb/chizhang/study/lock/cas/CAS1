@@ -1,0 +1,11 @@
+无锁优化 自旋
+CAS = Compare And Set
+
+cas(V, Expected, NewValue)
+if V==E
+V=New
+otherwise try again or fail
+CPU原语支持
+
+ABA问题
+加版本号
