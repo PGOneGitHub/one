@@ -1,0 +1,9 @@
+容器：
+两大接口：Collection、Map
+物理结构：Array、链表
+
+Collection分三大类：
+    List
+    Set
+    Queue：主要任务是实现任务的取和装。为了高并发准备，实现了高并发时候用到的很多方法。
+        Deque：双端队列，可以反方向装，反方向取
